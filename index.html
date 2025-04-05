@@ -8,6 +8,7 @@
       font-family: 'Nexa Extra Light';
       src: url('Nexa-ExtraLight.otf') format('opentype');
     }
+
     @font-face {
       font-family: 'Nexa Heavy';
       src: url('Nexa-Heavy.otf') format('opentype');
@@ -28,20 +29,31 @@
 
     .signature-text .name {
       font-size: 20px;
-      color: #046834;
+      color: #4DAE35;
       font-family: 'Nexa Extra Light', sans-serif;
       font-weight: bold;
     }
 
     .signature-text .title {
       font-family: 'Nexa Heavy', sans-serif;
-      color: #4DAE35;
+      color: #046834;
     }
 
     .signature-text .course {
       font-family: 'Nexa Heavy', sans-serif;
       font-weight: bold;
+    }
+
+    .light-green {
       color: #4DAE35;
+    }
+
+    .dark-green {
+      color: #046834;
+    }
+
+    .italic {
+      font-style: italic;
     }
 
     .signature-text .org-info {
@@ -70,7 +82,10 @@
     <div class="signature-text">
       <div class="name">Aleksa Radovanović</div>
       <div class="title">Design coordinator</div>
-      <div class="course">Designer</div>
+      <div class="course">
+        <span class="light-green italic">BEST COURSE IN SUMMER</span>
+        <span class="dark-green italic"> 2025</span>
+      </div>
       <div class="org-info">Board of European Students of Technology<br>Local BEST group Belgrade</div>
       <div class="icons">
         <img src="phone.png" alt="Phone">
